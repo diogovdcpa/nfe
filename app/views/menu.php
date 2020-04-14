@@ -55,8 +55,8 @@
 	<ul class="menu-ul">
 		<li class="bg-menu"><a href=""><i class="icon fas fa-arrow-left"></i> Recolher menu</a></li>
 		<span class="h5 p-1 py-2 text-branco mb-0 d-block text-uppercase"><i class="icon fas fa-file-contract"></i> Notas</span>
-		<li><a href="<?php echo URL_BASE . "Nfe/index"?>"><i class="icon fas fa-list"></i> Todas as notas</a></li>
-		<li><a href="<?php echo URL_BASE . "Nfe/create"?>"><i class="icon fas fa-box"></i> Nova nota</a></li>
+		<li><a href="<?php echo URL_BASE . "notafiscal/index"?>"><i class="icon fas fa-list"></i> Todas as notas</a></li>
+		<li><a href="<?php echo URL_BASE . "notafiscal/create"?>"><i class="icon fas fa-box"></i> Nova nota</a></li>
 		<li><a href=""><i class="icon fas fa-signature"></i> Assinada</a></li>
 		<li><a href=""><i class="icon fas fa-stamp"></i> Validada</a></li>
 		<li><a href=""><i class="icon fas fa-check-double"></i> Autorizada</a></li> 

@@ -5,7 +5,7 @@ use app\models\Cfop;
 use app\models\Nfe;
 use stdClass;
 
-class NfeController extends Controller{ 
+class NotafiscalController extends Controller{ 
     
     public function index(){        
        $dados["view"] = "NFE/Index";
@@ -77,7 +77,7 @@ class NfeController extends Controller{
     $destinatario->fone = $_POST["foneDestinatario"];
 
     $notaFiscal = new \stdClass();
-    $notaFiscal->identificacao = $identificacao;
+    $notaFiscal->identificacao = $identificaca;
     $notaFiscal->emitente = $emitente;
     $notaFiscal->emitente = $destinatario;
     $objNfe->gerarNfe($notaFiscal);
