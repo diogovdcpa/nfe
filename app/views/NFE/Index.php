@@ -38,7 +38,7 @@
                     <div class="caixa-titulo py-1 d-inline-block width-100">
                             <span class="h5  pt-1 mb-0 d-inline-block"><i class="far fa-list-alt"></i> Lista NFE</span>
 							<small class="d-inline-block text-right mb-0 h6 px-2"><b class="text-amarelo">20</b> registros</small>
-							<a href="<?php echo URL_BASE?>Nfe/create" class="btn btn-amarelo float-right"><i class="fas fa-plus-circle mb-0"></i> Adicionar novo</a>
+							<a href="<?php echo URL_BASE?>notafiscal/create" class="btn btn-amarelo float-right"><i class="fas fa-plus-circle mb-0"></i> Adicionar novo</a>
                     </div>
 					
 				

@@ -1,4 +1,10 @@
 	
+<form name="frmIdentificacao" action="<?php echo URL_BASE."notafiscal/salvaridentificacao" ?>" method="post">
+<div class="rows">
+	<div class="col-12 mt-2">
+		<button type="submit" name="aba03" class="btn btn-outline-verde float-right text-uppercase">Salvar</button>
+	</div>
+</div>
 <span class="d-block mt-4 h4 border-bottom">Informações básicas</span>
 <div class="rows pb-4">
 		
@@ -112,6 +118,7 @@
 				</div> 				
 
 </div>
+</form>
         
 		
 	

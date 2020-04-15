@@ -3,10 +3,10 @@
 				<div class="conteudo-fluido">
 				<div class="rows">	
                 <div class="col-12">
-		<form action="<?php echo URL_BASE ."nfe/salvar" ?>" method="POST">
+		<form action="<?php echo URL_BASE ."notafiscal/salvar" ?>" method="POST">
                 <div class="caixa">
                     <div class="caixa-titulo py-1 d-inline-block width-100">
-                            <span class="h5  pt-1 mb-0 d-inline-block"><i class="far fa-list-alt"></i> Adicionar Nota</span>
+                            <span class="h5  pt-1 mb-0 d-inline-block"><i class="far fa-list-alt"></i> Nota Num: <?php echo $notafiscal->id_nfe ?></span>
                     </div>
 
                 <div class="p-5 pb-0 pt-4 width-100 float-left">	
